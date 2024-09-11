@@ -1,0 +1,449 @@
+/* Isaac Tran*/
+html {
+  scroll-behavior: smooth;
+}
+body{
+	background-color: black;
+}
+h1, h2{
+	color: white;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 35px;
+}
+h2{
+	font-size: 140%;
+}
+h3{
+	color: white;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 100%;
+	text-align: center;
+}
+
+p{
+	color: white;
+	font-family: 'Times New Roman', serif;
+	font-size: 20px;
+}
+button{
+	background-color: limegreen;
+	font-size: 25px;
+	border: 1px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	text-align: center;
+    margin: 55px auto;
+    display: block;
+}
+ul {
+	color: white;
+	font-size: 115%;
+	font-family: 'arial', Times New Roman;
+}
+table{
+	border: 2px solid limegreen;
+	border-radius: 10px;
+}
+td{
+	padding: 1px 10px;
+	color: white;
+	font-weight: bold;
+	font-size: 140%;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+th{
+	color: white;
+}
+a{
+	font-family: 'Comforta', cursive;;
+	color: red;
+}
+a:link, a:visited{
+	color:green;
+}
+.border{
+		border: ridge green 3px; 
+		margin: 30px;
+}
+.upp{
+	text-transform: uppercase;
+	color: red;
+	font-weight: bold;
+}	
+.pad{
+	padding: 10px 0px;
+}
+.lGreen{
+	color: limegreen;
+}
+.tCen{
+	text-align:center;
+}
+.bigg{
+	font-size: 230%;
+}
+.rFloat{
+	float: right;
+}
+.lFloat{
+	float: left;
+}
+.lMar{
+	margin-left: 70px;
+}
+.rMar{
+	margin-right: 80px;
+}
+.rAlign{
+	text-align: right;
+}
+.exo{
+	font-family: 'Exo2', serif;
+}
+.red{
+	color:red;
+}
+.tBg{
+	background-color: #1b1d1f;
+	margin-left: 0px;
+}
+.font2{
+	font-family: 'Dancing Script', cursive;
+	font-size: 300%;
+}
+#myHeader{
+	color: white;
+	font-size: 150%;
+	font-family: 'Impact', cursive;
+}
+
+@font-face {
+	font-family: Exo2;
+	src: url(Exo2.ttf);
+}
+
+@font-face {
+	font-family: Dancing Script;
+	src: url(Dancing.ttf);
+}
+
+@font-face {
+	font-family: Comforta;
+	src: url(Comforta.ttf);
+}
+
+/* highlight paragraph page2 */
+@keyframes highlight{
+    0% {
+        background: red
+    }
+    100% {
+        background: none;
+    }
+}
+@keyframes highlight2{
+    0% {
+        background: red
+    }
+    100% {
+        background: none;
+    }
+}
+@keyframes highlight3{
+    0% {
+        background: red
+    }
+    100% {
+        background: none;
+    }
+}
+@keyframes highlight4{
+    0% {
+        background: red
+    }
+    100% {
+        background: none;
+    }
+}
+@keyframes highlight5{
+    0% {
+        background: red
+    }
+    100% {
+        background: none;
+    }
+}
+@keyframes highlight6{
+    0% {
+        background: red
+    }
+    100% {
+        background: none;
+    }
+}
+@keyframes highlight7{
+    0% {
+        background: red
+    }
+    100% {
+        background: none;
+    }
+}
+@keyframes highlight8{
+    0% {
+        background: red
+    }
+    100% {
+        background: none;
+    }
+}
+@keyframes highlight9{
+    0% {
+        background: red
+    }
+    100% {
+        background: none;
+    }
+}
+
+#highlight:target {
+    animation: highlight 1s;
+}
+#highlight2:target {
+    animation: highlight2 1s;
+}
+#highlight3:target {
+    animation: highlight3 1s;
+}
+#highlight4:target {
+    animation: highlight4 1s;
+}
+#highlight5:target {
+    animation: highlight5 1s;
+}
+#highlight6:target {
+    animation: highlight6 2s;
+}
+#highlight7:target {
+    animation: highlight7 2s;
+}
+#highlight8:target {
+    animation: highlight8 3s;
+}
+#highlight9:target {
+    animation: highlight9 3s;
+}
+
+
+/* Navigation bar */
+.navright{
+	float: right;
+}
+#navbar {
+  border-bottom-color: limegreen;
+  border-style: solid;
+  background-color: #363232;
+  position: fixed;
+  top: 0;
+  left: auto;
+  right: auto;
+  width: 99%;
+  display: block;
+  transition: top 0.3s;
+  z-index: 9;
+}
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.active {
+  background-color: #04AA6D;
+}
+
+/* Button hover */
+.button1 {
+  background-color: Green; 
+  color: white; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+
+
+/* Slide show on page 2 */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: limegreen;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/* Split screen parallax thing on page 4 */
+
+.wrapper{
+    font-family: 'Comfortaa', sans-serif;
+    display: flex;
+}
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+    background: rgb(4, 4, 4);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.scroll{
+    width:50%;
+    color: white;
+}
+
+.scroll div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.scroll div > h2 {
+    width: 80%;
+    text-align: center;
+}
+
+.scroll div > p {
+    width: 80%;
+}
+
+.scroll div:nth-child(1){
+    background: #000000;
+}
+
+.scroll div:nth-child(2){
+    background: #000000;
+}
+
+.scroll div:nth-child(3){
+    background: #44318D;
+}
+
+footer{
+    min-height: 10vh;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    padding: 1rem;
+}
